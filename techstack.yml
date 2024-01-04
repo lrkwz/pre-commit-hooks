@@ -1,7 +1,8 @@
 repo_name: lrkwz/pre-commit-hooks
 report_id: b7b6cc485dbb7748dbd33b5d0c4c22bf
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T12:11:44+00:00'
+timestamp: '2024-01-04T14:53:19+00:00'
 requested_by: asottile
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/lrkwz/pre-commit-hooks
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/lrkwz/pre-commit-hooks
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/lrkwz/pre-commit-hooks/blob/main/.github/workflows/main.yml
   detection_source: ".github/workflows/main.yml"
   last_updated_by: Anthony Sottile
   last_updated_on: 2022-12-29 23:11:25.000000000 Z
@@ -46,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/lrkwz/pre-commit-hooks/blob/main/requirements-dev.txt
   detection_source: requirements-dev.txt
   last_updated_by: Anthony Sottile
   last_updated_on: 2014-04-14 05:09:14.000000000 Z
